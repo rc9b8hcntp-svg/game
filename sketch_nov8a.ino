@@ -4,12 +4,12 @@
 
 // --- 1. CONFIGURATION DES RESEAUX WI-FI ---
 // Wi-Fi auquel le Pico se connecte (Mode STA - pour l'accès Internet/CDN)
-const char* ssid_sta = "FabNono";
-const char* password_sta = "ABCDEFGH12345";
+const char* ssid_sta = "YOUR_SSID";
+const char* password_sta = "YOUR_MDP";
 
 // Wi-Fi hébergé par le Pico (Mode AP - pour que les joueurs s'y connectent)
-const char* ssid_ap = "MonWifi";
-const char* password_ap = "m@xenceP2013"; // 8 caractères minimum
+const char* ssid_ap = "SSID";
+const char* password_ap = "MDP"; // 8 caractères minimum
 
 WebServer server(80);
 
